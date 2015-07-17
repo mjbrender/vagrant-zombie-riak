@@ -12,12 +12,8 @@ rvm use 1.9.3
 gem install bundle
 
 
-echo "Download Zombie application source"
-echo -e "\n\n+++ Download Zombie application source +++" >> provision.log
-git clone https://github.com/mjbrender/riak-inverted-index-demo.git
-
-
-
+echo "Headed into the local riak-inverted-index-demo folder"
+echo -e "\n\n+++ Headed into the local riak-inverted-index-demo folder +++" >> provision.log
 chown -R vagrant riak-inverted-index-demo/
 cd riak-inverted-index-demo
 
