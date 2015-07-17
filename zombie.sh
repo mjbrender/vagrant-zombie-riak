@@ -14,8 +14,8 @@ gem install bundle
 
 echo "Headed into the local riak-inverted-index-demo folder"
 echo -e "\n\n+++ Headed into the local riak-inverted-index-demo folder +++" >> provision.log
-chown -R vagrant riak-inverted-index-demo/
-cd riak-inverted-index-demo
+chown -R vagrant /vagrant/riak-inverted-index-demo
+cd /vagrant/riak-inverted-index-demo
 
 echo "Running bundler"
 echo -e "\n\n+++ Running bundler +++" >> provision.log
